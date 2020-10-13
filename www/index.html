@@ -15,11 +15,18 @@
     align-items: center;
     justify-content: center;
   }
+ #fps {
+     white-space: pre;
+     font-family: monospace;
+}
 </style>
   </head>
   <body>
     <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
+
+    <button id='play-pause'></button>
     <canvas id="game-canvas"></canvas>
     <script src="./bootstrap.js"></script>
+    <div id ='fps'></div>
   </body>
 </html>
